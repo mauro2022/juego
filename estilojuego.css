@@ -1,0 +1,35 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #32e3fa;
+    text-align: center;
+}
+
+h1 {
+    color: #131212;
+}
+
+#puzzle {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    /* Ancho total de los elementos del rompecabezas (120px * 3) */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.puzzle-piece {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #b70cbd;
+}
